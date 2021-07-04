@@ -2,6 +2,7 @@ body{
 
     font-family: 'Otomanopee One', sans-serif;
     margin: 0%;
+    background-color: gray;
 }
 span{
 
@@ -15,11 +16,7 @@ section{
     margin-bottom: 8%;
 }
 
-.top-banner{
 
-    background-image: url("/Image/top-banner.png");
-    background-repeat: no-repeat;
-}
 .half-width{
     margin: 3%;
 
@@ -38,7 +35,7 @@ section{
     padding: 10px 40px;
     border-radius: 8%;
     color: white;
-    font-size: xx-large;
+    font-size: x-large;
 
 }
 .EXP div{
@@ -55,6 +52,14 @@ section{
     color: violet;
     font-size: x-large;
 }
+#j{
+
+    width: 180%;
+}
+#s{
+
+    margin-top: 6%;
+}
 footer{
     
 
@@ -64,4 +69,9 @@ footer{
     color: tomato;
 
     
+}
+.pro{
+
+    text-align: justify;
+    margin-right: 2%;
 }
