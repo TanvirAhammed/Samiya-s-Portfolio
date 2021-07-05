@@ -19,6 +19,7 @@ section{
 
 .half-width{
     margin: 3%;
+    text-align: justify;
 
     width: 50%;
 }
@@ -66,7 +67,7 @@ footer{
     border: red;
     text-align: center;
     box-shadow:5px 7px 40px rgb(29, 23, 23);
-    color: tomato;
+    color: rgb(224, 214, 213);
 
     
 }
@@ -75,3 +76,45 @@ footer{
     text-align: justify;
     margin-right: 2%;
 }
+
+.centerdiv{
+
+    
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+}
+a{
+
+    height: 100px;
+    width: 100px;
+    background-color: #f5f6fa ;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 1px 4px 2px 2px rgb(19, 30, 21);
+    line-height:110px ;
+}
+ a i{
+   
+     transition:  all 0.3s linear;
+ }
+ a:hover i{
+     transform: scale(1.4);
+
+
+
+ }
+ .fa-instagram{
+
+    color: #e84393;
+ }
+ .fa-youtube{
+     color: #e84118;
+ }
+ .fa-linkedin-in{
+
+    color: rgb(68, 135, 177);
+ }
